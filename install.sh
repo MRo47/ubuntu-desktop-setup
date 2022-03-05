@@ -13,6 +13,7 @@ sh $SCRIPTS/install-zsh.sh
 sh $SCRIPTS/install-aliases.sh
 
 ##install theme
+cp -r $RESOURCES/themes/WhiteSur-dark ~/.themes
 
 ##install shell theme
 
