@@ -7,8 +7,10 @@ export SCRIPTS="$PWD/scripts"
 sh $SCRIPTS/install-fonts.sh
 
 ##Install zsh
+sh $SCRIPTS/install-zsh.sh
 
-##Install oh-my-zsh and setup shortcuts, themes and fonts
+##install aliases
+sh $SCRIPTS/install-aliases.sh
 
 ##install theme
 
@@ -17,6 +19,8 @@ sh $SCRIPTS/install-fonts.sh
 ##install gnome tweak tool
 
 ##install vscode
+
+##setup vscode fonts in 
 
 ##install vscode extensions
 

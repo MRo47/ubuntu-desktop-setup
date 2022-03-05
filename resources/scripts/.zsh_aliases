@@ -1,0 +1,7 @@
+cona(){
+	conda activate "$1"
+}
+
+cond(){
+	conda deactivate
+}
