@@ -8,7 +8,9 @@ Add following lines to `Ctrl+Shift+P > settings.json`
 
 ```json
 "terminal.integrated.defaultProfile.linux": "zsh",
-"terminal.integrated.fontFamily": "SF Mono Powerline"
+"terminal.integrated.fontFamily": "SF Mono Powerline",
+"terminal.integrated.fontWeight": "400",
+"terminal.integrated.fontSize": 15
 ```
 
 ## zshrc settings
