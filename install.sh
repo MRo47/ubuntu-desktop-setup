@@ -3,6 +3,13 @@
 export RESOURCES="$PWD/resources"
 export SCRIPTS="$PWD/scripts"
 
+##install theme
+sh $SCRIPTS/install-themes.sh
+
+##need to logout for extension to work
+
+##now follow gui setup
+
 ##install fonts
 sh $SCRIPTS/install-fonts.sh
 
@@ -12,16 +19,9 @@ sh $SCRIPTS/install-zsh.sh
 ##install aliases
 sh $SCRIPTS/install-aliases.sh
 
-##install theme
-cp -r $RESOURCES/themes/WhiteSur-dark ~/.themes
-
-##install shell theme
-
-##install gnome tweak tool
-
 ##install vscode
 
-##setup vscode fonts in 
+##follow vscode gui setup
 
 ##install vscode extensions
 
