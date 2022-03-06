@@ -9,12 +9,12 @@ sh $SCRIPTS/themes.sh
 ##gnome tweaks
 sh $SCRIPTS/gnome-tweaks.sh
 
+##install fonts
+sh $SCRIPTS/fonts.sh
+
 ##now follow gui setup for gnome
 gnome-extensions-app
 gnome-tweaks
-
-##install fonts
-sh $SCRIPTS/fonts.sh
 
 ##Install zsh
 sh $SCRIPTS/zsh.sh
