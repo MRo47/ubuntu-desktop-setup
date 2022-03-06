@@ -44,3 +44,6 @@ brave
 
 ##setup git and ssh keys
 sh $SCRIPTS/ssh-keygen.sh
+
+##tilix
+sudo apt install tilix
