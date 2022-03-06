@@ -33,6 +33,7 @@ code
 
 ##install miniconda and set paths from example files
 sh $SCRIPTS/miniconda.sh
+gedit ~/.zshrc
 
 ##install latest opencv
 
