@@ -2,8 +2,15 @@
 
 ## vscode
 
-### Enable extensions and themes
+### Enable themes
 
+Press Ctrl+Shift+P and type `theme`, then change the relevant themes to the ones installed.
+
+Icons: Material
+
+File icons: Material
+
+Color theme: Atom One dark
 
 ### Setup fonts for terminal
 
