@@ -38,5 +38,7 @@ gedit ~/.zshrc
 ##install latest opencv
 
 ##install brave and themes
+sh $SCRIPTS/brave.sh
+brave
 
 ##setup git and ssh keys
