@@ -1,29 +1,35 @@
 #!/bin/bash
 
 export RESOURCES="$PWD/resources"
-export SCRIPTS="$PWD/scripts"
+export SCRIPTS="$PWD/install-scripts"
 
 ##install theme
-sh $SCRIPTS/install-themes.sh
+sh $SCRIPTS/themes.sh
 
-##need to logout for extension to work
+##gnome tweaks
+sh $SCRIPTS/gnome-tweaks.sh
 
-##now follow gui setup
+##now follow gui setup for gnome
+gnome-extensions-app
+gnome-tweaks
 
 ##install fonts
-sh $SCRIPTS/install-fonts.sh
+sh $SCRIPTS/fonts.sh
 
 ##Install zsh
-sh $SCRIPTS/install-zsh.sh
+sh $SCRIPTS/zsh.sh
 
 ##install aliases
-sh $SCRIPTS/install-aliases.sh
+sh $SCRIPTS/aliases.sh
 
 ##install vscode
-
-##follow vscode gui setup
+sh $SCRIPTS/vscode.sh
 
 ##install vscode extensions
+sh $SCRIPTS/vscode-extensions.sh
+
+##follow vscode gui setup
+code .
 
 ##install miniconda and set paths
 

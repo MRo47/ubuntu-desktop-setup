@@ -2,7 +2,10 @@
 
 ## vscode
 
-### setup fonts for terminal
+### Enable extensions and themes
+
+
+### Setup fonts for terminal
 
 Add following lines to `Ctrl+Shift+P > settings.json`
 
