@@ -31,7 +31,7 @@ sh $SCRIPTS/vscode-extensions.sh
 ##follow vscode gui setup
 code
 
-##install miniconda and set paths from example files
+##install miniconda and correct .zshrc, check readme
 sh $SCRIPTS/miniconda.sh
 gedit ~/.zshrc
 
