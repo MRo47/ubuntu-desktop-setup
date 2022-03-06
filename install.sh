@@ -36,9 +36,11 @@ sh $SCRIPTS/miniconda.sh
 gedit ~/.zshrc
 
 ##install latest opencv
+sh $SCRIPTS/opencv4.5.5.sh
 
 ##install brave and themes
 sh $SCRIPTS/brave.sh
 brave
 
 ##setup git and ssh keys
+sh $SCRIPTS/ssh-keygen.sh
