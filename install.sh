@@ -29,9 +29,10 @@ sh $SCRIPTS/vscode.sh
 sh $SCRIPTS/vscode-extensions.sh
 
 ##follow vscode gui setup
-code .
+code
 
-##install miniconda and set paths
+##install miniconda and set paths from example files
+sh $SCRIPTS/miniconda.sh
 
 ##install latest opencv
 
