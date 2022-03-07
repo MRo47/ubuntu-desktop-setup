@@ -19,7 +19,7 @@ echo $email
 
 ssh-keygen -t ed25519 -C "$email"
 
-echo "Add key to ssh-agent, example: \n ssh-add ~/.ssh/id_ed25519"
+echo "Add your private key to the ssh-agent, example: \n ssh-add ~/.ssh/id_ed25519"
 
 brave https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
