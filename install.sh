@@ -3,47 +3,53 @@
 export RESOURCES="$PWD/resources"
 export SCRIPTS="$PWD/install-scripts"
 
-##install theme
-sh $SCRIPTS/themes.sh
+##extract all tars
+find $RESOURCES -name '*.tar.xz' -execdir tar -xf '{}' \;
 
-##gnome tweaks
-sh $SCRIPTS/gnome-tweaks.sh
+# ##install theme
+# sh $SCRIPTS/themes.sh
 
-##install fonts
-sh $SCRIPTS/fonts.sh
+# ##install icons
+# sh $SCRIPTS/icons.sh
 
-##now follow gui setup for gnome
-gnome-extensions-app
-gnome-tweaks
+# ##gnome tweaks
+# sh $SCRIPTS/gnome-tweaks.sh
 
-##Install zsh
-sh $SCRIPTS/zsh.sh
+# ##install fonts
+# sh $SCRIPTS/fonts.sh
 
-##install aliases
-sh $SCRIPTS/aliases.sh
+# ##now follow gui setup for gnome
+# gnome-extensions-app
+# gnome-tweaks
 
-##install vscode
-sh $SCRIPTS/vscode.sh
+# ##Install zsh
+# sh $SCRIPTS/zsh.sh
 
-##install vscode extensions
-sh $SCRIPTS/vscode-extensions.sh
+# ##install aliases
+# sh $SCRIPTS/aliases.sh
 
-##follow vscode gui setup
-code
+# ##install vscode
+# sh $SCRIPTS/vscode.sh
 
-##install miniconda and correct .zshrc, check readme
-sh $SCRIPTS/miniconda.sh
-gedit ~/.zshrc
+# ##install vscode extensions
+# sh $SCRIPTS/vscode-extensions.sh
 
-##install latest opencv
-sh $SCRIPTS/opencv4.5.5.sh
+# ##follow vscode gui setup
+# code
 
-##install brave and themes
-sh $SCRIPTS/brave.sh
-brave
+# ##install miniconda and correct .zshrc, check readme
+# sh $SCRIPTS/miniconda.sh
+# gedit ~/.zshrc
 
-##setup git and ssh keys
-sh $SCRIPTS/ssh-keygen.sh
+# ##install latest opencv
+# sh $SCRIPTS/opencv4.5.5.sh
 
-##tilix
-sudo apt install tilix
+# ##install brave and themes
+# sh $SCRIPTS/brave.sh
+# brave
+
+# ##setup git and ssh keys
+# sh $SCRIPTS/ssh-keygen.sh
+
+# ##tilix
+# sudo apt install tilix
