@@ -1,4 +1,22 @@
-# GUI settings
+# Desktop setup
+
+Complete desktop setup scripts and resources (mostly from https://www.gnome-look.org/)
+
+## Index
+
+1. Aliases
+2. Brave browser
+3. Docker + moving docker root
+4. Install fonts
+5. Install gnome-tweaks
+6. Install icons
+7. Miniconda setup
+8. Opencv 4.5.5 build with contrib modules and intel optimisation
+9. ssh keys setup
+10. Install gnome themes
+11. vscode setup
+12. vscode extensions
+13. zsh setup
 
 ## Theme
 
