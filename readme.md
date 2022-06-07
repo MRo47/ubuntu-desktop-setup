@@ -4,9 +4,9 @@
 
 Use the following images as reference to set the theme and fonts
 
-### gnome extensions app
+### Apperance
 
-![extensions](gui-settings/images/gt-extensions.png)
+![extensions](gui-settings/images/appearance.png)
 
 ### gnome tweak appearance
 

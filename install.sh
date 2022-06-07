@@ -6,50 +6,42 @@ export SCRIPTS="$PWD/install-scripts"
 ##extract all tars
 find $RESOURCES -name '*.tar.xz' -execdir tar -xf '{}' \;
 
-# ##install theme
-# sh $SCRIPTS/themes.sh
+# install git
+sudo apt install git
+
+# install build essentials like gcc
+sudo apt install build-essential -y
 
 # ##install icons
-# sh $SCRIPTS/icons.sh
-
-# ##gnome tweaks
-# sh $SCRIPTS/gnome-tweaks.sh
+sh $SCRIPTS/icons.sh
 
 # ##install fonts
-# sh $SCRIPTS/fonts.sh
-
-# ##now follow gui setup for gnome
-# gnome-extensions-app
-# gnome-tweaks
+sh $SCRIPTS/fonts.sh
 
 # ##Install zsh
-# sh $SCRIPTS/zsh.sh
+sh $SCRIPTS/zsh.sh
 
 # ##install aliases
-# sh $SCRIPTS/aliases.sh
+sh $SCRIPTS/aliases.sh
 
 # ##install vscode
-# sh $SCRIPTS/vscode.sh
+sh $SCRIPTS/vscode.sh
 
 # ##install vscode extensions
-# sh $SCRIPTS/vscode-extensions.sh
+sh $SCRIPTS/vscode-extensions.sh
 
 # ##follow vscode gui setup
-# code
-
-# ##install miniconda and correct .zshrc, check readme
-# sh $SCRIPTS/miniconda.sh
-# gedit ~/.zshrc
-
-# ##install latest opencv
-# sh $SCRIPTS/opencv4.5.5.sh
+code
 
 # ##install brave and themes
-# sh $SCRIPTS/brave.sh
-# brave
+sh $SCRIPTS/brave.sh
+brave
 
 # ##setup git and ssh keys
-# sh $SCRIPTS/ssh-keygen.sh
+sh $SCRIPTS/ssh-keygen.sh
 
 # ##tilix
-# sudo apt install tilix
+sudo apt install tilix
+
+# ##docker
+sh $SCRIPTS/docker.sh
