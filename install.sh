@@ -18,6 +18,9 @@ sh $SCRIPTS/icons.sh
 # ##install fonts
 sh $SCRIPTS/fonts.sh
 
+# dock settings for showing only workspace related apps
+gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
+
 # ##Install zsh
 sh $SCRIPTS/zsh.sh
 
