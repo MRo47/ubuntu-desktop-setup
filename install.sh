@@ -48,3 +48,9 @@ sudo apt install tilix
 
 # ##docker
 sh $SCRIPTS/docker.sh
+
+# ##install ios mount (tool to use filesystem on ios)
+sh $SCRIPTS/ios_mount.sh
+
+# ##install gthumb (tool for imaporting media from external drive)
+sh $SCRIPTS/gthumb.sh
